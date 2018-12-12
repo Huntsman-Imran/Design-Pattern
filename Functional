@@ -1,5 +1,5 @@
 #Adapter Design Pattern
-   Its a structural design pattern. It work as a bridge between two Interface.
+   Its a structural design pattern. It work as a bridge between two incompatable Interface.
 #Real Life Example
    1. Card Reader Which act as an adapter between memory and pc
 #When to Use Adapter Design Pattern?
