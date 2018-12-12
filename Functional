@@ -1,5 +1,6 @@
 #Adapter Design Pattern
    Its a structural design pattern. It work as a bridge between two incompatable Interface.
+![Uploading ADAPTER.PNG…]()
 #Real Life Example
    1. Card Reader Which act as an adapter between memory and pc
 #When to Use Adapter Design Pattern?
@@ -10,7 +11,7 @@
 #Types
     1.Deligation(Object Adapter)
     2.Inheritance(Class Adapter)
-    
+    ![Uploading 2adapter.PNG…]()
     Deligation(Object Adapter): It represent weak relationship(aggregation). In this process property of adaptee class is called by 
     creating object.
     
@@ -20,4 +21,4 @@
 # Reference 
     https://www.youtube.com/watch?v=TMFJ1Zy2sDc&index=10&list=PLmCsXDGbJHdjX4WzDCwIT93UZrwTFKP23
     
-#Faced  Design Pattern
+#Compotite  Design Pattern
