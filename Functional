@@ -19,16 +19,26 @@
 # Reference 
     https://www.youtube.com/watch?v=TMFJ1Zy2sDc&index=10&list=PLmCsXDGbJHdjX4WzDCwIT93UZrwTFKP23
     
-#Compotite  Design Pattern
+#Composite  Design Pattern
     Composite design pattern allow you to have tree structure and ask each node to perform same task(means whatever operation you
     can perform on leaf noad should be applicable in parent node).
     This patttern creates tree structure of multiple object.
+#When to Use Adapter Design Pattern?
+    1. Composite desing pattern is used when we need to treat a group of object in a similar way as single object.
     
 #Real Life Example
      Computer Can be devided into two node 1.cabinate 2. peripheral. Cabinate some child node 1.Processor 2. RAM 
      Peripheral containss child node 1. Key board 2. Mouse
      As we know same operation should be applicable in all noad (So if we can find value of individual cost of Processor and RAM the
      we should be able to find commulative cost of peripheral.
+
+#Alternative
+     The structure of composite pattern and decorator look the same but they have different intent.
+       Composite gives an unified interface to a leaf and composite.
+       Decorator decorator gives additional feature to leaf, while giving unified interface.
+     Examples
+         Composite pattern: classic windows folders and files. Windows folders are composites. files are leaves. A double click on either of them opens the file/folder - double click is unified interface.
+         Decorator pattern: Buffered io - java.io.FileWriter and java.io.BufferedWriter both extend java.io.Writer. java.io.BufferedWriter is composite and FileWriter is leaf. BufferedWriter adds additional responsibility (or feature) of buffering to FileWriter. write() method is unified interface, whereas buffering is additional feature.
 
 #Reference
      https://www.youtube.com/watch?v=Q1jZ4TI6MF4
