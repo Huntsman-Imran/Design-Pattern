@@ -1,1 +1,12 @@
-
+#Adapter Design Pattern
+   Its a structural design pattern. It work as a bridge between two Interface.
+#Real Life Example
+   1. Card Reader Which act as an adapter between memory and pc
+#When to Use Adapter Design Pattern?
+   1. Allows system to use class of another system.
+   2. Sometime a library can not be used becaus its interface is incompatible with the interface required by an application
+#Alternative
+    Faced is the alternative to Adapter design pattern.
+#Types
+    1.Deligation(Object Adapter)
+    2.Inheritance(Class Adapter)
