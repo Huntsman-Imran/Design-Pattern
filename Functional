@@ -55,7 +55,10 @@
      ATM machine work as a proxy on behalf of bank.
      Proxy server
 #Types
-    1.Remote Proxy
+    1.Remote Proxy(Through RMI we can get remote server object to the client server and this act as a remote proxy)
     2.Virtual Proxy
-    3.Protection Proxy
+    3.Protection Proxy(Example: In a developemnt environtment some folder in server pc 
+                       shared to CEO or Project Manager but developer can't access those folder)
     4.Smart Proxy
+# Reference 
+    https://www.youtube.com/watch?v=ooPPd_LIkzQ&list=PLmCsXDGbJHdhbuiNVstMjyOQdtaS_ha2u&index=8
