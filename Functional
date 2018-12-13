@@ -62,3 +62,17 @@
     4.Smart Proxy
 # Reference
     https://www.youtube.com/watch?v=ooPPd_LIkzQ&list=PLmCsXDGbJHdhbuiNVstMjyOQdtaS_ha2u&index=8
+    
+# Flyweight Design Pattern
+    Flyweight desing pattern is used in case when we need large number of object of similar nature. Large number of object
+    consume large number of memory and flyweight desing patter is used as a solution of it.
+    Primarily it is used to reduce number of object creation and secondly it used to increase performance.
+    
+    There are two state in flyweight design pattern.
+       Intrensic: intrensic state are thing that are constant and stored in memory.
+       Extrensic: extrensic state are thing that anr not constant and calculated on fly and that is why it is not stord in
+       memory.
+  # Real life example
+      Angry Bird game.
+  #Reference Link
+      https://www.youtube.com/watch?v=Ht-ieqGMKBk&index=6&list=PLmCsXDGbJHdiS_QqMUDjNmi_pjtZ9qB_6
