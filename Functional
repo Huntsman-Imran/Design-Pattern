@@ -37,8 +37,25 @@
        Composite gives an unified interface to a leaf and composite.
        Decorator decorator gives additional feature to leaf, while giving unified interface.
      Examples
-         Composite pattern: classic windows folders and files. Windows folders are composites. files are leaves. A double click on either of them opens the file/folder - double click is unified interface.
-         Decorator pattern: Buffered io - java.io.FileWriter and java.io.BufferedWriter both extend java.io.Writer. java.io.BufferedWriter is composite and FileWriter is leaf. BufferedWriter adds additional responsibility (or feature) of buffering to FileWriter. write() method is unified interface, whereas buffering is additional feature.
+         Composite pattern: classic windows folders and files. Windows folders are composites. files are leaves. 
+         A double click on either of them opens the file/folder - double click is unified interface.
+         
+         Decorator pattern: Buffered io - java.io.FileWriter and java.io.BufferedWriter both extend java.io.Writer.
+         java.io.BufferedWriter is composite and FileWriter is leaf. BufferedWriter adds additional responsibility (or feature)
+         of buffering to FileWriter. write() method is unified interface, whereas buffering is additional feature.
 
 #Reference
      https://www.youtube.com/watch?v=Q1jZ4TI6MF4
+
+#Proxy Design Pattern
+     Proxy provie surrogate or place holder for another object to contorl access to it. Proxy is an object that is being called
+     by the client to call the real boject
+     In proxy patten a class represent the functionality of another class.
+#Real Life Example
+     ATM machine work as a proxy on behalf of bank.
+     Proxy server
+#Types
+    1.Remote Proxy
+    2.Virtual Proxy
+    3.Protection Proxy
+    4.Smart Proxy
