@@ -13,7 +13,7 @@
     Deligation(Object Adapter): It represent weak relationship(aggregation). In this process property of adaptee class is called by 
     creating object.
     
-    Inheritance(Class Adapter):It represent weak relationship(composition). In this process property of adaptee class is called by 
+    Inheritance(Class Adapter):It represent strong relationship(composition). In this process property of adaptee class is called by 
     implementing adaptee class.
     
 # Reference 
@@ -33,7 +33,7 @@
      we should be able to find commulative cost of peripheral.
 
 #Alternative
-     The structure of composite pattern and decorator look the same but they have different intent.
+       The structure of composite pattern and decorator look the same but they have different intent.
        Composite gives an unified interface to a leaf and composite.
        Decorator decorator gives additional feature to leaf, while giving unified interface.
      Examples
@@ -48,7 +48,7 @@
      https://www.youtube.com/watch?v=Q1jZ4TI6MF4
 
 #Proxy Design Pattern
-     Proxy provie surrogate or place holder for another object to contorl access to it. Proxy is an object that is being called
+     Proxy provide surrogate or place holder for another object to contorl access to it. Proxy is an object that is being called
      by the client to call the real boject
      In proxy patten a class represent the functionality of another class.
 #Real Life Example
