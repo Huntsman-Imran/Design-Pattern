@@ -55,12 +55,20 @@
      ATM machine work as a proxy on behalf of bank.
      Proxy server
 #Types
-    1.Remote Proxy(Through RMI we can get remote server object to the client server and this act as a remote proxy)
-    2.Virtual Proxy(It is place holder for object which are expensive to create. expensive object is created only once when frist time
+    1.Remote Proxy(Remote Proxy provide local representative for an object which are reside in different address space.
+    Through RMI we can get remote server object to the client server and this act as a remote proxy)
+   
+   2.Virtual Proxy(It is place holder for object which are expensive to create. expensive object is created only once when frist time
     when client requests for the object )
-    3.Protection Proxy(Example: In a developemnt environtment some folder in server pc 
+   
+   3.Protection Proxy(It checks the caller have access permission to forward the request.Example: In a developemnt environtment some folder in server pc 
                        shared to CEO or Project Manager but developer can't access those folder)
     4.Smart Proxy
+    
+#Alternative
+    Adapter design pattern is the alternative to the proxy design pattern. but must remember that like adapter design pattern 
+    proxy design pattern exposes interface but main advantages of it are - save processing time and memory
+    
 # Reference
     https://www.youtube.com/watch?v=ooPPd_LIkzQ&list=PLmCsXDGbJHdhbuiNVstMjyOQdtaS_ha2u&index=8
     
