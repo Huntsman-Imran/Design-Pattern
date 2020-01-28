@@ -69,6 +69,10 @@
     Adapter design pattern is the alternative to the proxy design pattern. but must remember that like adapter design pattern 
     proxy design pattern exposes interface but main advantages of it are - save processing time and memory
     
+#Advantages
+    -> add sicurity to existing object.
+    -> providing interface for remote resources such as web service or REST.
+    
 # Reference
     https://www.youtube.com/watch?v=ooPPd_LIkzQ&list=PLmCsXDGbJHdhbuiNVstMjyOQdtaS_ha2u&index=8
     
