@@ -56,7 +56,8 @@
      Proxy server
 #Types
     1.Remote Proxy(Through RMI we can get remote server object to the client server and this act as a remote proxy)
-    2.Virtual Proxy
+    2.Virtual Proxy(It is place holder for object which are expensive to create. expensive object is created only once when frist time
+    when client requests for the object )
     3.Protection Proxy(Example: In a developemnt environtment some folder in server pc 
                        shared to CEO or Project Manager but developer can't access those folder)
     4.Smart Proxy
