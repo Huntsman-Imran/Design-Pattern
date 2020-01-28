@@ -92,4 +92,6 @@
   #Reference Link
       https://www.youtube.com/watch?v=Ht-ieqGMKBk&index=6&list=PLmCsXDGbJHdiS_QqMUDjNmi_pjtZ9qB_6
       
-  #Bridge Design Pattern
+  #Decorator Design Pattern
+    Decorator design pattern allows to add new functionality to an object without altering the structure and its
+    pattern act as a wrapper to the existing class 
