@@ -95,3 +95,10 @@
   #Decorator Design Pattern
     Decorator design pattern allows to add new functionality to an object without altering the structure and its
     pattern act as a wrapper to the existing class 
+  #Real life example
+    Before creating chicken or vegetable pizza u have plain pizz. after having plain pizza u can decorate it
+   through vegetable or chicken. 
+  #Alternative
+    Composite design pattern is the alternative of Decorator design pattern.
+  #Reference Link
+     https://www.youtube.com/watch?v=-CSs47U8H4k&list=PLmCsXDGbJHdiG7Ci8q_D5sTwh5vgD-X5Z&index=45
