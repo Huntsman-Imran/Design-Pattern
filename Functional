@@ -95,10 +95,40 @@
   #Decorator Design Pattern
     Decorator design pattern allows to add new functionality to an object without altering the structure and its
     pattern act as a wrapper to the existing class 
+    
   #Real life example
     Before creating chicken or vegetable pizza u have plain pizz. after having plain pizza u can decorate it
-   through vegetable or chicken. 
+   through vegetable or chicken.
+   
+  #When to use
+    When u want to change behaviour of object at runtime.
   #Alternative
     Composite design pattern is the alternative of Decorator design pattern.
   #Reference Link
      https://www.youtube.com/watch?v=-CSs47U8H4k&list=PLmCsXDGbJHdiG7Ci8q_D5sTwh5vgD-X5Z&index=45
+  #Bridge Design Pattern
+    Disign pattern is devided into two part Abstraction and Implementation. It allows Abstration 
+    and Implementation to be developed independently And clint can only access abstration part without
+    being concerned about implementation part. 
+    
+    If abstraction part is changed it doesn't effect implementatin part and vice varsa.
+  #Real life example
+    shape is abstraction part which contains different shape 
+    and in color is implementation part which contains different color
+    
+    -you can change either abstraction or implementation part like you can add new shape or color 
+    but it will not effect each other.
+    
+      #Reference Link
+      https://www.youtube.com/watch?v=ztdhlaWL5S0&list=PLmCsXDGbJHdiG7Ci8q_D5sTwh5vgD-X5Z&index=56
+      
+  #Filter Design Pattern
+     Filter Design pattern is used to filter object from list of objects based on some criteria.
+  #Real Life Example
+     From a list of people we want to filter differnet person based on some criteria
+     like - male , female, married, not married. In case like this we can use filter design pattern.
+  #Reference link:
+     https://www.youtube.com/watch?v=q0SmOyn2Awg&list=PLmCsXDGbJHdiG7Ci8q_D5sTwh5vgD-X5Z&index=2
+     
+     
+     
